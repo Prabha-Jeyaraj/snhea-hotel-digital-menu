@@ -1,0 +1,94 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@layer base {
+  :root {
+    --bg-dark: #131313;
+    --surface-lowest: #0e0e0e;
+    --surface-low: #1c1b1b;
+    --surface: #201f1f;
+    --surface-high: #2a2a2a;
+    --surface-highest: #353534;
+    --gold: #ffd400;
+    --gold-dim: #ebc300;
+    --gold-text: #fff3d6;
+    --gold-on: #3b2f00;
+    --text-primary: #e5e2e1;
+    --text-muted: #d0c6ab;
+    --text-subtle: #999077;
+    --border-hairline: #2a2a2a;
+    --border-muted: #4d4632;
+    --veg-green: #00875a;
+    --nonveg-red: #ba1a1a;
+    --egg-amber: #e8a817;
+  }
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-dark);
+    color: var(--text-primary);
+    font-family: "Work Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overscroll-behavior-y: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  .font-syne {
+    font-family: "Syne", sans-serif;
+  }
+
+  /* Material Symbols icon sizing */
+  .material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+    vertical-align: middle;
+  }
+}
+
+/* Utilities */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Card Opening Folio Keyframes */
+@keyframes slideLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes fadeInScale {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  80% {
+    opacity: 0.9;
+    transform: scale(1.05);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.15);
+    visibility: hidden;
+  }
+}
