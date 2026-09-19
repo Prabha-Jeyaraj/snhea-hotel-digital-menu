@@ -110,7 +110,7 @@ export const MENU_DISHES: Dish[] = [
     name: "Garlic Chicken Gravy",
     description: "Description coming soon",
     price: 242,
-    imageUrl: "/placeholder-dish.svg",
+    imageUrl: "/media/images/non_veg_gravy/garlic_chicken_gravy.png",
     category: "non-veg",
     menuSection: "NON-VEG GRAVY",
     spicy: true,
