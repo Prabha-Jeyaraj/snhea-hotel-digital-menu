@@ -1,3 +1,4 @@
+import { assetUrl } from "@/lib/utils";
 import React, { useEffect, useState } from "react";
 
 interface OpeningFolioProps {
@@ -80,7 +81,7 @@ export const OpeningFolio: React.FC<OpeningFolioProps> = ({ onComplete }) => {
           <div className="absolute w-36 h-36 rounded-full bg-[#ffd400]/25 blur-2xl animate-pulse" />
           <div className="w-28 h-28 rounded-full overflow-hidden bg-[#0d0d0d] p-1 border-2 border-[#ffd400] shadow-[0_0_25px_rgba(0,0,0,0.85)] flex items-center justify-center">
             <img
-              src="/hotel-sneha-logo.jpg"
+              src={assetUrl("/hotel-sneha-logo.jpg")}
               alt="Hotel Sneha Logo"
               className="w-full h-full object-cover rounded-full"
             />

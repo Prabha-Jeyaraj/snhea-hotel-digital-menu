@@ -1,4 +1,5 @@
 import React, { useMemo, useState } from "react";
+import { assetUrl } from "@/lib/utils";
 import type { Dish } from "@/types/dish";
 import { MENU_DISHES, MENU_SECTIONS } from "@/data/menuData";
 import { OpeningFolio } from "@/components/OpeningFolio";
@@ -121,7 +122,7 @@ export default function Home() {
           <div className="flex items-center gap-3">
             <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-full overflow-hidden shrink-0 border border-[#ffd400]/60 bg-[#0d0d0d]">
               <img
-                src="/hotel-sneha-logo.jpg"
+                src={assetUrl("/hotel-sneha-logo.jpg")}
                 alt="Hotel Sneha Logo"
                 className="w-full h-full object-cover"
               />
@@ -196,7 +197,7 @@ export default function Home() {
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
             <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full overflow-hidden border-2 border-[#ffd400] shadow-xl bg-[#0d0d0d] mb-3">
               <img
-                src="/hotel-sneha-logo.jpg"
+                src={assetUrl("/hotel-sneha-logo.jpg")}
                 alt="Hotel Sneha Logo"
                 className="w-full h-full object-cover"
               />

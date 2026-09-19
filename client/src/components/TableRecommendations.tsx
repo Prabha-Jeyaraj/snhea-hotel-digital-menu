@@ -1,4 +1,5 @@
 import React from "react";
+import { assetUrl } from "@/lib/utils";
 import type { Dish } from "@/types/dish";
 import type { DishRecommendation } from "@/lib/recommendation";
 import { DietaryBadge } from "./DietaryBadge";
@@ -43,7 +44,7 @@ export const TableRecommendations: React.FC<TableRecommendationsProps> = ({
         </button>
         <div className="flex items-center gap-2.5">
           <img
-            src="/hotel-sneha-logo.jpg"
+            src={assetUrl("/hotel-sneha-logo.jpg")}
             alt="Hotel Sneha Logo"
             className="w-8 h-8 rounded-full object-cover border border-[#ffd400]"
           />

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { assetUrl } from "@/lib/utils";
 import type {
   BudgetRange,
   GroupSuitability,
@@ -163,7 +164,7 @@ export const RecommendationWizard: React.FC<RecommendationWizardProps> = ({
         </button>
         <div className="flex items-center gap-2">
           <img
-            src="/hotel-sneha-logo.jpg"
+            src={assetUrl("/hotel-sneha-logo.jpg")}
             alt="Hotel Sneha Logo"
             className="w-7 h-7 rounded-full object-cover border border-[#ffd400]"
           />

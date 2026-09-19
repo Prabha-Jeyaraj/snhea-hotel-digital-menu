@@ -1,4 +1,5 @@
 import React from "react";
+import { assetUrl } from "@/lib/utils";
 import type { Dish } from "@/types/dish";
 import { DietaryBadge } from "./DietaryBadge";
 
@@ -25,11 +26,11 @@ export const DishDetailSheet: React.FC<DishDetailSheetProps> = ({
         {/* Large Visual Section */}
         <div className="relative w-full h-56 sm:h-64 bg-[#141414] overflow-hidden">
           <img
-            src={dish.imageUrl || "/placeholder-dish.svg"}
+            src={assetUrl(dish.imageUrl || "/placeholder-dish.svg")}
             alt={dish.name}
             className="w-full h-full object-cover"
             onError={(e) => {
-              (e.currentTarget as HTMLImageElement).src = "/placeholder-dish.svg";
+              (e.currentTarget as HTMLImageElement).src = assetUrl("/placeholder-dish.svg");
             }}
           />
           {/* Close Button */}

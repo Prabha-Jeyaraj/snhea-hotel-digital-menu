@@ -7,7 +7,11 @@ import { vitePluginManusRuntime } from "vite-plugin-manus-runtime";
 
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime()];
 
+const isGithubPages = process.env.GITHUB_PAGES?.trim() === "true";
+const basePath = process.env.VITE_BASE_PATH || (isGithubPages ? "/snhea-hotel-digital-menu/" : "/");
+
 export default defineConfig({
+  base: basePath,
   plugins,
   resolve: {
     alias: {
