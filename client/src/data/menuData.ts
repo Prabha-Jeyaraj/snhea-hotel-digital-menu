@@ -34,7 +34,7 @@ export const MENU_DISHES: Dish[] = [
   {
     id: "nvg-1",
     name: "Chettinad Chicken Gravy",
-    description: "Description coming soon",
+    description: "Tender chicken simmered in a rich, aromatic gravy inspired by the bold flavors of Chettinad cuisine. A flavorful choice for those who enjoy deep, spicy South Indian-style gravies.",
     price: 206,
     imageUrl: "/placeholder-dish.svg",
     animationUrl: "/media/animations/non_veg_gravy/chettinad_chicken_gravy.mp4",
@@ -53,7 +53,7 @@ export const MENU_DISHES: Dish[] = [
   {
     id: "nvg-2",
     name: "Butter Chicken Gravy",
-    description: "Description coming soon",
+    description: "Juicy pieces of chicken enveloped in a rich, creamy and mildly spiced gravy with a smooth buttery finish. A comforting combination that pairs beautifully with naan, parotta or rice.",
     price: 230,
     imageUrl: "/placeholder-dish.svg",
     animationUrl: "/media/animations/non_veg_gravy/butter_chicken_gravy.mp4",
@@ -72,7 +72,7 @@ export const MENU_DISHES: Dish[] = [
   {
     id: "nvg-3",
     name: "Ginger Chicken Gravy",
-    description: "Description coming soon",
+    description: "Tender chicken cooked in a flavorful gravy with the warm, aromatic character of ginger. A satisfying choice for anyone who enjoys a bold yet balanced chicken preparation.",
     price: 242,
     imageUrl: "/media/images/non_veg_gravy/ginger_chicken_gravy.png",
     category: "non-veg",
@@ -90,7 +90,7 @@ export const MENU_DISHES: Dish[] = [
   {
     id: "nvg-4",
     name: "Chili Chicken Gravy",
-    description: "Description coming soon",
+    description: "Succulent chicken combined with a rich, chili-infused gravy delivering a delicious spicy kick. Perfect for those who enjoy their chicken with a lively and flavorful finish.",
     price: 230,
     imageUrl: "/media/images/non_veg_gravy/chilli_chicken_gravy.png",
     category: "non-veg",
@@ -108,7 +108,7 @@ export const MENU_DISHES: Dish[] = [
   {
     id: "nvg-5",
     name: "Garlic Chicken Gravy",
-    description: "Description coming soon",
+    description: "Tender chicken prepared in a rich gravy with the distinctive aroma and savory character of garlic. A hearty, flavorful option that goes well with parotta, naan or rice.",
     price: 242,
     imageUrl: "/media/images/non_veg_gravy/garlic_chicken_gravy.png",
     category: "non-veg",
@@ -126,7 +126,7 @@ export const MENU_DISHES: Dish[] = [
   {
     id: "nvg-6",
     name: "Prawn Masala",
-    description: "Description coming soon",
+    description: "Succulent prawns cooked in a rich and flavorful masala with an aromatic blend of spices. A delicious seafood choice for those looking for something bold and satisfying.",
     price: 291,
     imageUrl: "/media/images/non_veg_gravy/prawn_masala.png",
     category: "non-veg",
@@ -148,7 +148,7 @@ export const MENU_DISHES: Dish[] = [
   {
     id: "par-1",
     name: "Parotta",
-    description: "Description coming soon",
+    description: "A classic South Indian favorite with soft, flaky and beautifully layered texture. Perfect on its own or paired with your favorite gravy or side dish.",
     price: 22,
     imageUrl: "/placeholder-dish.svg",
     animationUrl: "/media/animations/parotta_varieties/parotta.mp4",
@@ -167,7 +167,7 @@ export const MENU_DISHES: Dish[] = [
   {
     id: "par-2",
     name: "Bun Parotta",
-    description: "Description coming soon",
+    description: "A soft and fluffy variation of the traditional parotta with a distinctive bun-like shape. Enjoy its delicate layers with a flavorful gravy for a satisfying meal.",
     price: 37,
     imageUrl: "/placeholder-dish.svg",
     animationUrl: "/media/animations/parotta_varieties/bun_parotta.mp4",
@@ -186,7 +186,7 @@ export const MENU_DISHES: Dish[] = [
   {
     id: "par-3",
     name: "Chili Parotta",
-    description: "Description coming soon",
+    description: "Flaky parotta brought together with a flavorful chili-infused preparation for an exciting twist. A delicious option for those who enjoy their parotta with extra spice and flavor.",
     price: 170,
     imageUrl: "/media/images/parotta_varieties/chilli_kothu_parotta.png",
     category: "veg",
@@ -204,7 +204,7 @@ export const MENU_DISHES: Dish[] = [
   {
     id: "par-4",
     name: "Nool Parotta",
-    description: "Description coming soon",
+    description: "Delicate, fine layers come together to create this unique and soft parotta variety. A light and enjoyable choice that pairs wonderfully with rich gravies.",
     price: 30,
     imageUrl: "/media/images/parotta_varieties/nool_parotta.png",
     category: "veg",
@@ -222,7 +222,7 @@ export const MENU_DISHES: Dish[] = [
   {
     id: "par-5",
     name: "Kothu Parotta",
-    description: "Description coming soon",
+    description: "Flaky parotta chopped and tossed into a flavorful preparation for the classic South Indian kothu experience. A hearty street-food favorite packed with texture and satisfying flavor.",
     price: 170,
     imageUrl: "/media/images/parotta_varieties/kothu_parotta.png",
     category: "egg",
@@ -240,7 +240,7 @@ export const MENU_DISHES: Dish[] = [
   {
     id: "par-6",
     name: "Chicken Kothu Parotta",
-    description: "Description coming soon",
+    description: "Flaky parotta and tender chicken come together in a flavorful, chopped and tossed preparation. A filling favorite for anyone craving a rich and satisfying combination.",
     price: 242,
     imageUrl: "/media/images/parotta_varieties/chicken_kothu_parotta.png",
     category: "non-veg",
@@ -258,7 +258,7 @@ export const MENU_DISHES: Dish[] = [
   {
     id: "par-7",
     name: "Ceylon Parotta",
-    description: "Description coming soon",
+    description: "A beautifully layered parotta with a distinctive texture and rich, satisfying bite. A flavorful choice for enjoying with your favorite Hotel Sneha gravy.",
     price: 194,
     imageUrl: "/media/images/parotta_varieties/ceylon_parotta.png",
     category: "egg",
@@ -276,7 +276,7 @@ export const MENU_DISHES: Dish[] = [
   {
     id: "par-8",
     name: "Veechu Parotta",
-    description: "Description coming soon",
+    description: "A traditionally prepared parotta featuring delicate layers and a soft, satisfying texture. Perfect for pairing with spicy gravies, curries or your favorite side dish.",
     price: 37,
     imageUrl: "/media/images/parotta_varieties/veechu_parotta.png",
     category: "veg",
@@ -294,7 +294,7 @@ export const MENU_DISHES: Dish[] = [
   {
     id: "par-9",
     name: "Veg Kothu Parotta",
-    description: "Description coming soon",
+    description: "Flaky parotta tossed together with flavorful vegetables in a delicious chopped preparation. A satisfying vegetarian choice packed with texture and comforting flavors.",
     price: 158,
     imageUrl: "/media/images/parotta_varieties/veg_kothu_parotta.png",
     category: "veg",
@@ -312,7 +312,7 @@ export const MENU_DISHES: Dish[] = [
   {
     id: "par-10",
     name: "Veg Parotta",
-    description: "Description coming soon",
+    description: "A classic layered parotta offering a soft interior with delicious flaky layers. A simple and versatile choice that pairs perfectly with vegetarian or non-vegetarian gravies.",
     price: 22,
     imageUrl: "/media/images/parotta_varieties/veg_parotta.png",
     category: "veg",
@@ -330,7 +330,7 @@ export const MENU_DISHES: Dish[] = [
   {
     id: "par-11",
     name: "VNR Parotta",
-    description: "Description coming soon",
+    description: "A distinctive parotta variety prepared for a unique and satisfying dining experience. Enjoy its soft, layered texture alongside your favorite gravy or curry.",
     price: 40,
     imageUrl: "/media/images/parotta_varieties/vnr_parotta.png",
     category: "veg",
@@ -348,7 +348,7 @@ export const MENU_DISHES: Dish[] = [
   {
     id: "par-12",
     name: "Egg Veechu Parotta",
-    description: "Description coming soon",
+    description: "Flaky veechu parotta combined with egg for a deliciously rich and satisfying preparation. A flavorful option for egg lovers looking for something hearty and filling.",
     price: 55,
     imageUrl: "/media/images/parotta_varieties/egg_veechu_parotta.png",
     category: "egg",
@@ -366,7 +366,7 @@ export const MENU_DISHES: Dish[] = [
   {
     id: "par-13",
     name: "Kili Parotta",
-    description: "Description coming soon",
+    description: "A distinctive and indulgent parotta preparation created for those looking beyond the classics. Enjoy its flavorful layers with a delicious accompaniment for a satisfying meal.",
     price: 206,
     imageUrl: "/media/images/parotta_varieties/kili_parotta.png",
     category: "non-veg",
@@ -388,7 +388,7 @@ export const MENU_DISHES: Dish[] = [
   {
     id: "tg-1",
     name: "Grilled Chicken Half",
-    description: "Description coming soon",
+    description: "Juicy chicken grilled to bring out a deliciously smoky and savory character. A satisfying choice for anyone who enjoys beautifully grilled chicken with bold flavor.",
     price: 303,
     imageUrl: "/placeholder-dish.svg",
     animationUrl: "/media/animations/tandoori_&_grill/grill_half.mp4",
@@ -407,7 +407,7 @@ export const MENU_DISHES: Dish[] = [
   {
     id: "tg-2",
     name: "Grilled Chicken Full",
-    description: "Description coming soon",
+    description: "A generous full serving of succulent chicken prepared on the grill for a rich, smoky finish. Perfect for sharing or enjoying as a hearty centerpiece for your meal.",
     price: 579,
     imageUrl: "/media/images/tandoori_&_grill/grill_full.png",
     category: "non-veg",
@@ -425,7 +425,7 @@ export const MENU_DISHES: Dish[] = [
   {
     id: "tg-3",
     name: "Tandoori Chicken Half",
-    description: "Description coming soon",
+    description: "Tender chicken prepared in the classic tandoori style with aromatic flavors and a beautifully grilled finish. A timeless favorite for lovers of smoky, flavorful chicken.",
     price: 315,
     imageUrl: "/media/images/tandoori_&_grill/tandoori_half.png",
     category: "non-veg",
@@ -443,7 +443,7 @@ export const MENU_DISHES: Dish[] = [
   {
     id: "tg-4",
     name: "Tandoori Chicken Full",
-    description: "Description coming soon",
+    description: "A generous full serving of classic tandoori chicken with a deliciously charred and aromatic finish. Perfect for sharing and enjoying with your favorite accompaniments.",
     price: 581,
     imageUrl: "/placeholder-dish.svg",
     animationUrl: "/media/animations/tandoori_&_grill/tandoori_full.mp4",
@@ -462,7 +462,7 @@ export const MENU_DISHES: Dish[] = [
   {
     id: "tg-5",
     name: "Tandoori Chicken Quarter",
-    description: "Description coming soon",
+    description: "A smaller serving of classic tandoori chicken with tender meat and a delicious smoky, grilled character. An ideal choice when you want to enjoy a tandoori favorite without a larger portion.",
     price: 182,
     imageUrl: "/media/images/tandoori_&_grill/tandoori_quarter.png",
     category: "non-veg",
@@ -484,7 +484,7 @@ export const MENU_DISHES: Dish[] = [
   {
     id: "br-1",
     name: "Plain Naan",
-    description: "Description coming soon",
+    description: "Soft and tender naan with a delicate texture, freshly prepared to complement your meal. A classic pairing for rich gravies, curries and flavorful side dishes.",
     price: 55,
     imageUrl: "/placeholder-dish.svg",
     animationUrl: "/media/animations/breads/plain_naan.mp4",
@@ -503,7 +503,7 @@ export const MENU_DISHES: Dish[] = [
   {
     id: "br-2",
     name: "Butter Naan",
-    description: "Description coming soon",
+    description: "Soft, warm naan finished with a rich buttery touch for an extra layer of indulgence. Perfect for soaking up your favorite Hotel Sneha gravies and curries.",
     price: 66,
     imageUrl: "/placeholder-dish.svg",
     animationUrl: "/media/animations/breads/butter_naan.mp4",
@@ -522,7 +522,7 @@ export const MENU_DISHES: Dish[] = [
   {
     id: "br-3",
     name: "Garlic Butter Naan",
-    description: "Description coming soon",
+    description: "Soft naan enhanced with aromatic garlic and a rich buttery finish. A flavorful bread choice that pairs beautifully with creamy and spicy gravies.",
     price: 92,
     imageUrl: "/media/images/breads/garlic_butter_naan.png",
     category: "veg",
@@ -544,7 +544,7 @@ export const MENU_DISHES: Dish[] = [
   {
     id: "nd-1",
     name: "Chicken Noodles",
-    description: "Description coming soon",
+    description: "Flavorful noodles tossed together with tender chicken for a satisfying and hearty meal. A delicious choice for anyone craving a classic chicken noodle preparation.",
     price: 158,
     imageUrl: "/placeholder-dish.svg",
     animationUrl: "/media/animations/noodles/chicken_noodles.mp4",
@@ -563,7 +563,7 @@ export const MENU_DISHES: Dish[] = [
   {
     id: "nd-2",
     name: "Egg Noodles",
-    description: "Description coming soon",
+    description: "Delicious noodles combined with egg for a satisfying balance of texture and flavor. A comforting favorite that's perfect for a quick and fulfilling meal.",
     price: 146,
     imageUrl: "/placeholder-dish.svg",
     animationUrl: "/media/animations/noodles/egg_noodles.mp4",
@@ -582,7 +582,7 @@ export const MENU_DISHES: Dish[] = [
   {
     id: "nd-3",
     name: "Veg Noodles",
-    description: "Description coming soon",
+    description: "Noodles tossed with flavorful vegetables for a colorful and satisfying vegetarian preparation. A simple, delicious choice for those looking for a lighter noodle option.",
     price: 134,
     imageUrl: "/media/images/noodles/veg_noodles.png",
     category: "veg",
@@ -600,7 +600,7 @@ export const MENU_DISHES: Dish[] = [
   {
     id: "nd-4",
     name: "Gobi Noodles",
-    description: "Description coming soon",
+    description: "Flavorful noodles paired with gobi for a delicious vegetarian twist on the classic noodle favorite. A satisfying combination of texture and savory flavor in every bite.",
     price: 146,
     imageUrl: "/media/images/noodles/gobi_noodles.png",
     category: "veg",
@@ -618,7 +618,7 @@ export const MENU_DISHES: Dish[] = [
   {
     id: "nd-5",
     name: "Paneer Noodles",
-    description: "Description coming soon",
+    description: "Delicious noodles combined with soft paneer for a rich and satisfying vegetarian preparation. A great choice for paneer lovers looking for something filling and flavorful.",
     price: 170,
     imageUrl: "/media/images/noodles/paneer_noodles.png",
     category: "veg",
@@ -636,7 +636,7 @@ export const MENU_DISHES: Dish[] = [
   {
     id: "nd-6",
     name: "Mushroom Noodles",
-    description: "Description coming soon",
+    description: "Savory noodles paired with mushrooms for a delicious combination of texture and earthy flavor. A comforting vegetarian choice that's both satisfying and flavorful.",
     price: 158,
     imageUrl: "/media/images/noodles/mushroom_noodles.png",
     category: "veg",
@@ -654,7 +654,7 @@ export const MENU_DISHES: Dish[] = [
   {
     id: "nd-7",
     name: "Veg Mixed Noodles",
-    description: "Description coming soon",
+    description: "A generous noodle preparation bringing together a flavorful mix of vegetarian ingredients. A satisfying option for those who want variety and plenty of flavor in every bite.",
     price: 242,
     imageUrl: "/media/images/noodles/veg_mixed_noodles.png",
     category: "veg",
