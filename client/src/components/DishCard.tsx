@@ -1,6 +1,7 @@
 import React from "react";
 import type { Dish } from "@/types/dish";
 import { DietaryBadge } from "./DietaryBadge";
+import { assetUrl } from "@/lib/utils";
 
 interface DishCardProps {
   dish: Dish;
@@ -13,16 +14,27 @@ export const DishCard: React.FC<DishCardProps> = ({ dish, onSelect }) => {
       onClick={() => onSelect(dish)}
       className="bg-[#1c1b1b] border border-[#2a2a2a] rounded-xl p-4 shadow-sm flex gap-4 hover:bg-[#222121] hover:border-[#ffd400]/40 transition-all cursor-pointer group select-none h-full"
     >
-      {/* Square Image Placeholder (Left-Aligned within card) */}
+      {/* Square Image / Animation Container (Left-Aligned within card) */}
       <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-lg shrink-0 overflow-hidden bg-[#141414] border border-[#262626] relative self-start">
-        <img
-          src={dish.imageUrl || "/placeholder-dish.svg"}
-          alt={dish.name}
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300 ease-out"
-          onError={(e) => {
-            (e.currentTarget as HTMLImageElement).src = "/placeholder-dish.svg";
-          }}
-        />
+        {dish.animationUrl ? (
+          <video
+            src={assetUrl(dish.animationUrl)}
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300 ease-out"
+          />
+        ) : (
+          <img
+            src={assetUrl(dish.imageUrl || "/placeholder-dish.svg")}
+            alt={dish.name}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300 ease-out"
+            onError={(e) => {
+              (e.currentTarget as HTMLImageElement).src = assetUrl("/placeholder-dish.svg");
+            }}
+          />
+        )}
       </div>
 
       {/* Content Block in Exact Order */}

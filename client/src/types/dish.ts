@@ -36,6 +36,7 @@ export interface Dish {
   description: string;
   price: number;
   imageUrl: string; // e.g. "/placeholder-dish.svg"
+  animationUrl?: string; // e.g. "/media/animations/non_veg_gravy/butter_chicken_gravy.mp4"
   category: Category;
   menuSection: string;
   spicy: boolean;

@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite --host",
     "build": "vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
-    "build:pages": "node -e \"const { execSync } = require('child_process'); const fs = require('fs'); execSync('npx vite build', { env: { ...process.env, GITHUB_PAGES: 'true' }, stdio: 'inherit' }); fs.copyFileSync('dist/public/index.html', 'dist/public/404.html'); fs.writeFileSync('dist/public/.nojekyll', '');\"",
+    "build:pages": "node -e \"const { execSync } = require('child_process'); const fs = require('fs'); execSync('npx vite build', { env: { ...process.env, GITHUB_PAGES: 'true' }, stdio: 'inherit' }); fs.cpSync('menu_data', 'dist/public/media', { recursive: true }); fs.copyFileSync('dist/public/index.html', 'dist/public/404.html'); fs.writeFileSync('dist/public/.nojekyll', '');\"",
     "deploy": "npm run build:pages && node scripts/deploy-gh-pages.cjs",
     "start": "NODE_ENV=production node dist/index.js",
     "preview": "vite preview --host",

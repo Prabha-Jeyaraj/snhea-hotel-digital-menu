@@ -98,15 +98,26 @@ export const TableRecommendations: React.FC<TableRecommendationsProps> = ({
             >
               {/* Dish Visual Header */}
               <div className="relative w-full h-44 bg-[#141414] overflow-hidden">
-                <img
-                  src={dish.imageUrl || "/placeholder-dish.svg"}
-                  alt={dish.name}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300 ease-out"
-                  onError={(e) => {
-                    (e.currentTarget as HTMLImageElement).src =
-                      "/placeholder-dish.svg";
-                  }}
-                />
+                {dish.animationUrl ? (
+                  <video
+                    src={assetUrl(dish.animationUrl)}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300 ease-out"
+                  />
+                ) : (
+                  <img
+                    src={assetUrl(dish.imageUrl || "/placeholder-dish.svg")}
+                    alt={dish.name}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300 ease-out"
+                    onError={(e) => {
+                      (e.currentTarget as HTMLImageElement).src =
+                        assetUrl("/placeholder-dish.svg");
+                    }}
+                  />
+                )}
                 {/* Veg/Non-Veg Badge Top-Right */}
                 <div className="absolute top-2.5 right-2.5 bg-[#0d0d0d]/90 backdrop-blur-sm p-1 rounded">
                   <DietaryBadge category={dish.category} />
